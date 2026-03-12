@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vnpt-blue: #0068FF;
+  --color-vnpt-dark: #004BB5;
+  --color-vnpt-light: #E6F0FF;
+}
+
+/* Custom styles for VNPT Quảng Ninh */
+.animate-zoom-in {
+  animation: zoom-in 0.3s ease-out;
+}
+
+@keyframes zoom-in {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
